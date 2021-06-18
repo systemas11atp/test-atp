@@ -1,0 +1,9 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+
+/* hide firstname and lastname alerts in checkout form */  
+#customer-form input[name="firstname"]+span.form-control-comment, #customer-form input[name="lastname"]+span.form-control-comment {
+    display: none;
+} 

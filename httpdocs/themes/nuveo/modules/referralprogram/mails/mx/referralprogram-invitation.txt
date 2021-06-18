@@ -1,0 +1,17 @@
+{shop_url}
+
+{firstname_friend} {lastname_friend}, ¡Únete!
+
+¡Tu amigo {firstname} {lastname} quiere referirte en [{shop_name}]({shop_url})!
+
+Nos complace ofrecerle un cupón de descuento con valor de {discount} (cupón # ) para que lo utilice en su próximo pedido. ¡Afíliese y obtega un cupón de descuento de {discount}!
+
+[Es muy fácil registrarse. ¡Solo haga clic aquí!]({link})
+
+Al registrarte, no olvides proporcionar el correo electrónico del amigo quien te refirió: {email}.
+
+Saludos.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

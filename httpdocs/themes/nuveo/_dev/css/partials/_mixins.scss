@@ -1,0 +1,67 @@
+@mixin search-box {
+  form {
+    position: relative;
+    input[type=text] {
+      &:focus {
+        outline: none;
+        color: #000;
+        background: white;
+        + button .search {
+          color: $brand-primary;
+        }
+      }
+      border: 0;
+      height: 46px;
+      padding: 0px 10px;
+      min-width: 255px;
+      background: #fff;
+      color: $gray;
+      @include placeholder {
+        color: #000;
+        text-indent: 0.3125rem;
+      }
+    }
+    button[type=submit] {
+      position: absolute;
+      background: none;
+      border: none;
+      cursor: pointer;
+      top: 0;
+      right: 0;
+      height: 46px;
+      padding: 0px 20px;
+      color: $gray-dark;
+      .search:hover {
+        color: $brand-primary;
+      }
+    i {
+      &::before {
+      font-size: 16px;
+    }
+    }
+    }
+  }
+}
+
+@mixin box-shadow {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+@mixin box-shadow-light {
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+@mixin truncateAfterLines($line-height: 1, $lines: 3, $font-size: 12px) {
+  display: block; /* Fallback for non-webkit */
+  font-size: $font-size;
+  line-height: $line-height;
+  height: $font-size*$lines*$line-height;  /* Fallback for non-webkit */
+  overflow: hidden;
+  @supports (-webkit-line-clamp: $lines) {
+    display: -webkit-box;
+    -webkit-line-clamp: $lines;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    /* height: auto; */
+  }
+}

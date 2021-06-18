@@ -1,0 +1,13 @@
+{shop_url}
+
+Hola {firstname} {lastname},
+
+Nuevo mensaje de aviso guardado
+
+Atención: has recibido una nueva alerta de registro en tu Back Office.
+
+Puede verificarlo en la sección Parámetros avanzados > Registros de su back office.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

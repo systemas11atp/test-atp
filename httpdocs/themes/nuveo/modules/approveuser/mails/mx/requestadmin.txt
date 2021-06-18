@@ -1,0 +1,4 @@
+ {shop_name}
+Hola ,
+Nueva solicitud del cliente {firstname} {lastname}  con el correo {email} está pendiente
+{shop_name}

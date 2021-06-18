@@ -1,0 +1,13 @@
+{shop_url}
+
+Hola {firstname} {lastname},
+
+Pedido {order_name} - Crédito
+
+Se ha creado un cupón de descuento para usted por haber realizado el pedido {order_name}.
+
+Resive este cupón de descuento y descargue su factura desde nuestra tienda, diríjase a la sección [Créditos]({history_url}) de su cuenta de cliente.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

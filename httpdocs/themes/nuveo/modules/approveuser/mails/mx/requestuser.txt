@@ -1,0 +1,5 @@
+ {shop_name}
+Hola {firstname} {lastname},
+Tu solicitud de registro se encuentra pendiente. te notificaremos próximamente.
+
+{shop_name}

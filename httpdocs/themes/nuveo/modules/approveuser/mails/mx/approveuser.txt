@@ -1,0 +1,4 @@
+ {shop_name}
+Hola {firstname} {lastname},
+Felicidades tu slicitud fue aprovada correctamente 
+

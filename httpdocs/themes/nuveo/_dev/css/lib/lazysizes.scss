@@ -1,0 +1,89 @@
+.no-js img.lazyload {
+  display: none;
+}
+
+.lazyload,
+.lazyloading {
+  opacity: 0;
+
+}
+.lazyloaded {
+  opacity: 1;
+  /* transition: opacity 500ms; */
+}
+
+//lazysizes with slick slider
+.slick-slide{
+  &.lazyload{
+    display: none!important;
+  }
+  & .lazyload{
+    display: none!important;
+  }
+}
+
+.slick-active,
+//weird bug slick slider don t add slick active sometimes
+.slick-current,
+.slick-current + .slick-slide{
+  &.lazyload{
+    display: block!important;
+  }
+  & .lazyload{
+    display: block!important;
+  }
+}
+
+/* minimizing reflows and avoiding page jumps */
+
+.rc {
+  position: relative;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-top: 100%;
+  background: rgba(0,0,0,0);
+  /* transition: background 150ms; */
+  &--lazyload:after{
+    display: none;
+  }
+}
+
+.rc > * {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.rc > a {
+  display: block;
+}
+.ratio2_1{
+  padding-top: 50%;
+}
+.ratio1_2{
+  padding-top: 200%;
+}
+.ratio4_3{
+  padding-top: 75%;
+}
+.ratio16_9{
+  padding-top: percentage(9/16);
+}
+.ratio1_1{
+  padding-top: 100%;
+}
+.ratio3_2{
+  padding-top: percentage(1-2/3);
+} 
+
+/* custom banner home */
+.ratio1_c {
+  padding-top: 54.932735%;
+  }
+  .ratio2_c {
+    padding-top: 46.928328%;
+    display: block;
+  }
+

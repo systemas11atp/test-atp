@@ -1,0 +1,15 @@
+
+[{shop_url}] 
+
+Hola,
+
+Mensaje desde {shop_name}
+
+{from_name} quiere compartir su lista de deseos contigo.
+
+Ver {wishlist_name}
+[{wishlist_link}] 
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
+

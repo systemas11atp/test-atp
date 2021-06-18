@@ -1,0 +1,63 @@
+#products, .featured-products, .new-products, .product-accessories,
+.special-products, .wp-crossseling, .wp-categoryproducts {
+  margin-bottom: 20px;
+  .owl-nav {
+    position: absolute;
+    right: 1px;
+    top: -55px;
+    font-size: 14px;
+  }
+  .owl-prev {
+    margin-right: 8px;
+  }
+/*
+.owl-next, .owl-prev { font-family: 'Material Icons'; display: block; float: left; font-size: 24px; width: 25px; height: 25px; transition: all 0.2s linear 0s; text-align: center; }
+.owl-next:after { content: '\e315'; display: block; padding: 1px 0 0 3px; }
+.owl-prev:after { content: '\e314'; display: block; padding: 1px 0 0 0; }
+*/
+
+  .owl-next, .owl-prev {
+    width: 25px;
+    height: 25px;
+    line-height: 24px; 
+    float: left;
+    display: block;
+    transition: all 0.2s linear 0s;
+    font-family: "FontAwesome";
+    text-align: center;
+  }
+
+  .owl-next {
+    background: #ddd;
+  }
+
+.owl-next:after {
+    content: "\f054";
+    display: block;
+    font-size: 10px;
+    color: #000;
+    padding: 0 0 0 3px;
+}
+
+.owl-prev:after {
+    content: "\f053";
+    display: block;
+    font-size: 10px;
+    color: #000;
+    padding: 0;
+}
+
+  .owl-next:hover {
+    background: #ddd;
+  }
+
+  .owl-prev:hover {
+    background: #ddd;
+  }
+
+  .owl-prev {
+    background: #ddd;
+    margin-right: 5px;
+  }
+}
+

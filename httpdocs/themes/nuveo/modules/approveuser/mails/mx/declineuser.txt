@@ -1,0 +1,4 @@
+ {shop_name}
+Hola {firstname} {lastname},
+Lamentamos informarle que su solicitud fue rechazada
+{shop_name}
